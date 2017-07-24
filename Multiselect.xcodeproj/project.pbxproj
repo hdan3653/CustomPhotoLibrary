@@ -12,6 +12,15 @@
 		98FBA58E1F207B7900007864 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FBA58C1F207B7900007864 /* Main.storyboard */; };
 		98FBA5901F207B7900007864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98FBA58F1F207B7900007864 /* Assets.xcassets */; };
 		98FBA5931F207B7900007864 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FBA5911F207B7900007864 /* LaunchScreen.storyboard */; };
+		98FBA59B1F207D7100007864 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FBA59A1F207D7100007864 /* CollectionViewController.swift */; };
+		98FBA5A11F20802200007864 /* bossam.png in Resources */ = {isa = PBXBuildFile; fileRef = 98FBA59C1F20802200007864 /* bossam.png */; };
+		98FBA5A21F20802200007864 /* chicken.png in Resources */ = {isa = PBXBuildFile; fileRef = 98FBA59D1F20802200007864 /* chicken.png */; };
+		98FBA5A31F20802200007864 /* dduck.png in Resources */ = {isa = PBXBuildFile; fileRef = 98FBA59E1F20802200007864 /* dduck.png */; };
+		98FBA5A41F20802200007864 /* hamburger.png in Resources */ = {isa = PBXBuildFile; fileRef = 98FBA59F1F20802200007864 /* hamburger.png */; };
+		98FBA5A51F20802200007864 /* pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = 98FBA5A01F20802200007864 /* pizza.png */; };
+		98FBA5A71F2080D800007864 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FBA5A61F2080D800007864 /* CollectionViewCell.swift */; };
+		98FBA5B11F20A3DB00007864 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FBA5B01F20A3DB00007864 /* Album.swift */; };
+		98FBA5B31F20C03700007864 /* MakeVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FBA5B21F20C03700007864 /* MakeVideo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		98FBA58F1F207B7900007864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98FBA5921F207B7900007864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98FBA5941F207B7900007864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98FBA59A1F207D7100007864 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		98FBA59C1F20802200007864 /* bossam.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bossam.png; sourceTree = "<group>"; };
+		98FBA59D1F20802200007864 /* chicken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chicken.png; sourceTree = "<group>"; };
+		98FBA59E1F20802200007864 /* dduck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dduck.png; sourceTree = "<group>"; };
+		98FBA59F1F20802200007864 /* hamburger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hamburger.png; sourceTree = "<group>"; };
+		98FBA5A01F20802200007864 /* pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza.png; sourceTree = "<group>"; };
+		98FBA5A61F2080D800007864 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		98FBA5B01F20A3DB00007864 /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		98FBA5B21F20C03700007864 /* MakeVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeVideo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +72,21 @@
 		98FBA5871F207B7900007864 /* Multiselect */ = {
 			isa = PBXGroup;
 			children = (
+				98FBA59C1F20802200007864 /* bossam.png */,
+				98FBA59D1F20802200007864 /* chicken.png */,
+				98FBA59E1F20802200007864 /* dduck.png */,
+				98FBA59F1F20802200007864 /* hamburger.png */,
+				98FBA5A01F20802200007864 /* pizza.png */,
 				98FBA5881F207B7900007864 /* AppDelegate.swift */,
 				98FBA58A1F207B7900007864 /* ViewController.swift */,
 				98FBA58C1F207B7900007864 /* Main.storyboard */,
 				98FBA58F1F207B7900007864 /* Assets.xcassets */,
 				98FBA5911F207B7900007864 /* LaunchScreen.storyboard */,
 				98FBA5941F207B7900007864 /* Info.plist */,
+				98FBA59A1F207D7100007864 /* CollectionViewController.swift */,
+				98FBA5A61F2080D800007864 /* CollectionViewCell.swift */,
+				98FBA5B01F20A3DB00007864 /* Album.swift */,
+				98FBA5B21F20C03700007864 /* MakeVideo.swift */,
 			);
 			path = Multiselect;
 			sourceTree = "<group>";
@@ -124,8 +151,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				98FBA5931F207B7900007864 /* LaunchScreen.storyboard in Resources */,
+				98FBA5A41F20802200007864 /* hamburger.png in Resources */,
+				98FBA5A51F20802200007864 /* pizza.png in Resources */,
+				98FBA5A31F20802200007864 /* dduck.png in Resources */,
 				98FBA5901F207B7900007864 /* Assets.xcassets in Resources */,
+				98FBA5A11F20802200007864 /* bossam.png in Resources */,
 				98FBA58E1F207B7900007864 /* Main.storyboard in Resources */,
+				98FBA5A21F20802200007864 /* chicken.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +168,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98FBA59B1F207D7100007864 /* CollectionViewController.swift in Sources */,
 				98FBA58B1F207B7900007864 /* ViewController.swift in Sources */,
+				98FBA5A71F2080D800007864 /* CollectionViewCell.swift in Sources */,
 				98FBA5891F207B7900007864 /* AppDelegate.swift in Sources */,
+				98FBA5B11F20A3DB00007864 /* Album.swift in Sources */,
+				98FBA5B31F20C03700007864 /* MakeVideo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
